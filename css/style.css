@@ -1,0 +1,199 @@
+/* resetar os elementos */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*global*/
+html {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+}
+
+h1,
+p {
+    color: aliceblue;
+}
+
+h1 {
+    font-size: 52px;
+    font-weight: 300;
+}
+
+h2{
+    font-size: 32px;
+    font-weight: 300;
+    text-align: center;
+    padding: 1em 0;
+}
+
+
+  
+
+
+
+
+
+
+/*classes*/
+.topo-container {
+    background-image: url('../img/bgBanner.jpg');
+    background-position: center;
+    background-size: cover;
+    padding: 20em 0;
+    text-align: center;
+}
+
+.topo-container input {
+    padding: 10px 25px;
+    background-color: #333;
+    color: aliceblue;
+    margin-top: 20px;
+    border:1px solid aliceblue;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.topo-container input:hover {
+background-color: darkgray;
+color:#333;
+transition: .5s;
+}
+.conteudo1-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* background-color: brown; */
+    padding-bottom: 4em;
+   
+}
+
+.paragrafo1 {
+    width: 30%;
+    padding: 0 40px;
+    text-align: center;
+}
+
+.paragrafo1 p{
+    color:#333;
+   
+}
+
+
+/*conteudo2*/
+
+.conteudo2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 5em 25em;
+    background: #333;
+}
+
+.card{
+    background: whitesmoke;
+    padding-bottom: 20px;
+}
+
+.card li{
+    display: block;
+    width: 300px;
+    list-style: none;
+    text-align: center;
+}
+
+.card li img{
+    width: 300px;
+    max-height: 170px;
+}
+
+.card li img:hover{
+    filter: saturate(0%);
+    transition: .5s;
+    border:1px solid white;
+
+}
+
+.card li h2{
+    font-size:26px;
+    font-weight: bold;
+    line-height: 26px;
+}
+
+.card li p{
+   color: #333;
+   text-align: center;
+   padding: 0 20px 20px 20px;
+   border-bottom: 1px solid #333;
+}
+
+.card li input{
+    padding: 5px 15px;
+    background-color: #333;
+    color: aliceblue;
+    margin-top: 20px;
+    border:1px solid aliceblue;
+    border-radius: 5px;
+    cursor: pointer;
+ }
+
+ .card li input:hover{
+    background-color: darkgray;
+    color:#333;
+    transition: .5s;
+ }
+
+ .conteudo3{
+     display: flex;
+     justify-content: center;
+     padding-bottom: 4em;
+  
+ }
+
+ .conteudo3 .paragrafo1{
+    width: 50%;
+ }
+
+ /*conteudo4*/
+
+ .conteudo4{
+    display: flex;
+     justify-content: center;
+     padding-bottom: 4em;
+
+ }
+
+ .conteudo4-esq{
+    background-color: rgb(113, 113, 248);
+    padding: 3em 10em;
+ }
+
+ .conteudo4-esq h2{
+  color: aliceblue;
+ }
+ .conteudo4-esq p{
+ text-align: center;
+ }
+
+ .conteudo4-dir{
+    background-color: rgb(113, 248, 113);
+    padding: 3em 10em;
+ }
+
+ .conteudo4-dir h2{
+    color: aliceblue;
+   }
+   .conteudo4-dir p{
+   text-align: center;
+   }
+
+
+   /*footer*/
+   .footer{
+    background: #333;
+    height: 70px;
+   }
+
+   .footer p{
+    text-align: center;
+    line-height: 70px;
+   }
